@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "har-mlt"
+version = "0.1.0"
+description = "Human activity recognition with wearable sensor data for MLT coursework"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Yang Anhong"}]
+
+[tool.setuptools.packages.find]
+where = ["src"]

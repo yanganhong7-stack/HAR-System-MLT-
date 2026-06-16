@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files: do not upload raw coursework/private datasets
+MLT-CW-Dataset/
+data/raw/
+data/interim/
+data/processed/
+*.csv
+*.xlsx
+*.parquet
+*.pkl
+
+# Model/checkpoint files
+*.h5
+*.keras
+*.pt
+*.pth
+*.joblib
+*.sav
+checkpoints/
+models/
+
+# Generated results
+results/figures/*.png
+results/figures/*.jpg
+results/tables/*.csv
+results/tables/*.xlsx
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
